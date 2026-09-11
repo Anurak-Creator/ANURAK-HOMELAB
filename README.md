@@ -12,9 +12,6 @@ Infrastructure &amp; Environment Documentation for ANURAK-HOMELAB
 ## 📐 1. Network Topology & Architecture
 
 ![ANURAK-HOMELAB Diagram](./network-diagram.png)
-![Network Diagram] (./docs/network-diagram.png)
-(https://drive.google.com/file/d/1Ra522HhGhfWKg_2d1QyhTViKlkLGA5c4/view?usp=sharing;https://github.com/Anurak-Creator/ANURAK-HOMELAB/blob/main/Anurak-Network_Diagram.drawio)
-### 🌐 WAN & Internet Connectivity (Multi-WAN / Failover)
 * **WAN 1 (Primary):** AP WiFi Apartment (`192.168.1.1`) via `wifi2` (Station Mode)
 * **WAN 2 (Backup):** Router 4G (`192.168.0.1`) via `eth1`
 * **Routing Strategy:** Main Outbound via Apartment WiFi, Failover/Backup via 4G Router
