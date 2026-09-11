@@ -11,6 +11,7 @@ Infrastructure &amp; Environment Documentation for ANURAK-HOMELAB
 
 ## 📐 1. Network Topology & Architecture
 
+![ANURAK-HOMELAB Diagram](./docs/network-diagram.png)
 ![Network Diagram] (./docs/network-diagram.png)
 (https://drive.google.com/file/d/1Ra522HhGhfWKg_2d1QyhTViKlkLGA5c4/view?usp=sharing;https://github.com/Anurak-Creator/ANURAK-HOMELAB/blob/main/Anurak-Network_Diagram.drawio)
 ### 🌐 WAN & Internet Connectivity (Multi-WAN / Failover)
