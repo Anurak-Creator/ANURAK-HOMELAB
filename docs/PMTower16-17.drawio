@@ -60,9 +60,9 @@
             <mxPoint x="550" y="831" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R3-l0Aaba9CAjucBZ_Ty-61" connectable="0" parent="R3-l0Aaba9CAjucBZ_Ty-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#CCCCCC;" value="UTP Gigabit&amp;nbsp;" vertex="1">
+        <mxCell id="R3-l0Aaba9CAjucBZ_Ty-61" connectable="0" parent="R3-l0Aaba9CAjucBZ_Ty-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontSize=14;" value="&amp;nbsp;CAT 6&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" x="-0.4993" y="1" as="geometry">
-            <mxPoint x="-1" y="16" as="offset" />
+            <mxPoint x="-100" y="-52" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R3-l0Aaba9CAjucBZ_Ty-58" edge="1" parent="1" source="R3-l0Aaba9CAjucBZ_Ty-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.632;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="R3-l0Aaba9CAjucBZ_Ty-40" value="">
@@ -206,6 +206,11 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="679" y="439.5" as="sourcePoint" />
             <mxPoint x="486" y="330.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEiCb77aHFRhDs9zVx4t-1" connectable="0" parent="R3-l0Aaba9CAjucBZ_Ty-131" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;CAT 6&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.2793" y="1" as="geometry">
+            <mxPoint x="53" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R3-l0Aaba9CAjucBZ_Ty-132" edge="1" parent="1" source="R3-l0Aaba9CAjucBZ_Ty-24" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;strokeColor=#FF0000;strokeWidth=2;" target="R3-l0Aaba9CAjucBZ_Ty-120" value="">
