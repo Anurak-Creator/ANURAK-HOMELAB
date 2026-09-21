@@ -185,13 +185,16 @@
             <mxGeometry height="40" width="120" x="713" y="361" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="pA5HOz1XFhAwvytpFVr6-1" edge="1" parent="1" source="R3-l0Aaba9CAjucBZ_Ty-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;strokeColor=#FF0000;strokeWidth=2;" target="R3-l0Aaba9CAjucBZ_Ty-121" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Core * 2" mermaidId="n:WAN2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="WAN 2: 4G Router&#xa;(192.168.0.1)" id="R3-l0Aaba9CAjucBZ_Ty-120">
           <mxCell parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1">
             <mxGeometry height="40" width="120" x="713" y="210" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="R3-l0Aaba9CAjucBZ_Ty-121" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.firewall;network2IconXOffset=0.0001;network2IconYOffset=0.0001;network2IconW=1;network2IconH=0.608;" value="" vertex="1">
-          <mxGeometry height="49.86" width="81.99" x="730.01" y="140.04" as="geometry" />
+          <mxGeometry height="49.86" width="81.99" x="732.01" y="133.04" as="geometry" />
         </mxCell>
         <mxCell id="R3-l0Aaba9CAjucBZ_Ty-130" edge="1" parent="1" source="R3-l0Aaba9CAjucBZ_Ty-118" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="R3-l0Aaba9CAjucBZ_Ty-73" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
