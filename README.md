@@ -41,12 +41,13 @@
 | **VM-Ubuntu** | `192.168.10.251` | Ubuntu Server | Cloudflare Tunnel Agent, Tailscale Subnet Router, WebServer | Inbound Edge Gateway / Web Server |
 | **VM-EVE-NG** | `192.168.10.252` | Linux | Network Emulation / Testing | Network Lab Simulation |
 | **VM-FreePBX**| `192.168.10.249` | FreePBX 17 | IP-PBX, Asterisk Voice Gateway | SIP/RTP Voice System |
+| **VM-Monitoring**| `192.168.10.234` | Grafana | Prometheus | MKTXP Exporter |
 
 ---
 
 ## 📊 4. Observability & Monitoring Stack (Grafana + Prometheus + MKTXP)
 
-* **Monitoring Host / VM:** `192.168.99.10` (Ubuntu Server 24.04 LTS / Docker Compose Stack)
+* **Monitoring Host / VM:** `192.168.10.234` (Ubuntu Server 22.04 LTS / Docker Compose Stack)
 * **API Connection:** RouterOS API (`TCP 8728`) เชื่อมต่อกับ MikroTik hAP ac² (`192.168.99.254`)
 * **Exporter (MKTXP v1.2.19):** ดึงค่า System Metrics, Interface Traffic (WAN1/WAN2), และ Netwatch Status ที่ Port `49090` (Internal Docker Network)
 * **Metrics Storage (Prometheus):** Scrape interval ทุก 10 วินาที พร้อม Alert Rules แจ้งเตือนเมื่อ WAN1 Down และ WAN2 Up
@@ -68,15 +69,14 @@
 | :--- | :--- | :--- | :--- |
 | `https://web.labanurak.online` | `HTTP` | `http://192.168.10.251:80` | Internal Web Server (VM-Ubuntu) |
 | `https://eve.labanurak.online` | `HTTP` | `http://192.168.10.252:80` | Interactive EVE-NG Network Lab *(WebSockets Enabled)* |
-| `https://pbx.labanurak.online` | `HTTPS` | `https://192.168.10.249:443` | FreePBX 17 Web Management Dashboard *(No TLS Verify)* |
+| `https://freepbx.labanurak.online` | `HTTPS` | `https://192.168.10.249:443` | FreePBX 17 Web Management Dashboard *(No TLS Verify)* |
+| `https://monitor.labanurak.online` | `HTTPS` | `https://192.168.10.234:3000` | Grafana Web Management Dashboard *(No TLS Verify)* |
 
 ---
 
 ## 🔑 6. Remote Access & Overlay Network (Tailscale)
 * **Tailscale Node:** VM Ubuntu (`192.168.10.251`)
 * **Routing Function:** Subnet Routing ข้ามไปหา IP วง internal (`192.168.10.0/24`, `192.168.0.1/24`)
-* **SIP Remote Client:** เชื่อมต่อ FreePBX 17 (`192.168.10.249`) ผ่าน IP ของ Tailscale (`100.X.X.X`) เพื่อข้าม NAT Issue
-
 ---
 
 ## 🔒 7. Security & Isolation Policies
@@ -91,12 +91,11 @@
 
 * **2026-09-26:**
   * ปรับปรุงขั้นตอนและเอกสารติดตั้ง Monitoring Stack (Grafana + Prometheus + MKTXP v1.2.19) บน Docker Compose
-  * แก้ไขปัญหา `FileNotFoundError: secrets.yml` โดยกำหนด Absolute Path `/etc/mktxp/secrets.yml` และเตรียมไฟล์แบบ Bind Mount สิทธิ์ UID 1000
-  * เพิ่ม Prometheus Alert Rules สำหรับตรวจจับสถานะ WAN Failover (`WAN1_Down_WAN2_Up`)
+  * เปิดใช้งาน Published Application Routes สำหรับเข้าถึง `monitor.labanurak.online` ออกสู่ภายนอกแบบ Zero Open Ports
 * **2026-09-17:**
   * จดทะเบียนโดเมนประจำแล็บ **`labanurak.online`** ผ่าน Cloudflare Registrar
   * ติดตั้งและกำหนดค่า Cloudflare Tunnel Connector (`cloudflared`) บน **VM-Ubuntu (`192.168.10.251`)**
-  * เปิดใช้งาน Published Application Routes สำหรับเข้าถึง `web.labanurak.online`, `eve.labanurak.online` และ `pbx.labanurak.online` ออกสู่ภายนอกแบบ Zero Open Ports
+  * เปิดใช้งาน Published Application Routes สำหรับเข้าถึง `web.labanurak.online`, `eve.labanurak.online` และ `freepbx.labanurak.online` ออกสู่ภายนอกแบบ Zero Open Ports
 * **2026-09-11:** 
   * ปรับโครงสร้าง Subnet แยก Port บน Router hAP (`eth2`: PC `192.168.30.0/24`, `eth3`: Server `192.168.10.0/24`) เพื่อแก้ปัญหา IP Conflict
   * กำหนด IP ประจำตัวให้กับ VM Server (`.251`, `.252`, `.249`) และตั้งค่า Netwatch Failover บน Router hAP
