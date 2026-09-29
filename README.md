@@ -41,7 +41,7 @@
 | **VM-Ubuntu** | `192.168.10.251` | Ubuntu Server | Cloudflare Tunnel Agent, Tailscale Subnet Router, WebServer | Inbound Edge Gateway / Web Server |
 | **VM-EVE-NG** | `192.168.10.252` | Linux | Network Emulation / Testing | Network Lab Simulation |
 | **VM-FreePBX**| `192.168.10.249` | FreePBX 17 | IP-PBX, Asterisk Voice Gateway | SIP/RTP Voice System |
-| **VM-Monitoring**| `192.168.10.234` | Grafana | Prometheus | MKTXP Exporter |
+| **VM-Monitoring**| `192.168.10.234` | Ubuntu Server  | Grafann Prometheus MKTXP Exporter | API Dashboard For Mikrotik |
 
 ---
 
