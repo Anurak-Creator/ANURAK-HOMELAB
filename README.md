@@ -11,6 +11,7 @@
 
 ![ANURAK-HOMELAB Diagram](./docs/Anurak-Homelab_Diagram.drawio.png)
 ![ANURAK-HOMELAB Diagram](./docs/Diagram.png)
+![ANURAK-HOMELAB Diagram](./Grafana.png)
 * **WAN 1 (Primary):** AP WiFi Apartment (`192.168.1.1`) via `wifi2` (Station Mode)
 * **WAN 2 (Backup):** Router 4G (`192.168.0.1`) via `eth1`
 * **Routing Strategy:** Main Outbound via Apartment WiFi, Failover/Backup via 4G Router
