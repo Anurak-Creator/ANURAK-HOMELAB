@@ -13,7 +13,7 @@
         <mxCell id="L7zTOhJfHXfXRMeTNl_m-24" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;🔢&lt;/font&gt;IVR Greeting&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;Haier สวัสดีค่ะ&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div&gt;กด 1 แจ้งซ่อม&lt;/div&gt;&lt;div&gt;กด 2 สอบถามวิธีการใช้งาน&lt;/div&gt;&lt;div&gt;กด 3 สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;&lt;div&gt;ผลิตภัณณ์&amp;nbsp; Casarte กด 4&lt;/div&gt;&lt;div&gt;For English Please press Nine&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;🔢&lt;/font&gt;IVR Greeting&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;Haier สวัสดีค่ะ&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div&gt;กด 1 แจ้งซ่อม&lt;/div&gt;&lt;div&gt;กด 2 สอบถามวิธีการใช้งาน&lt;/div&gt;&lt;div&gt;กด 3 สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;&lt;div&gt;ผลิตภัณณ์&amp;nbsp; Casarte กด 4&lt;/div&gt;&lt;div&gt;For English Please press Nine&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="245" x="-757.5" y="-620" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-9" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -24,7 +24,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="1.แจ้งซ่อม" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="1.แจ้งซ่อม" vertex="1">
           <mxGeometry height="40" width="110" x="-907" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-11" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -35,7 +35,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="2.สอบถามวิธีการใช้งาน" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="2.สอบถามวิธีการใช้งาน" vertex="1">
           <mxGeometry height="40" width="130" x="-771" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-13" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -46,7 +46,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;div&gt;3.สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;3.สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="130" x="-621" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-15" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -57,7 +57,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="4.ผลิตภัณณ์&amp;nbsp; Casarte" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="4.ผลิตภัณณ์&amp;nbsp; Casarte" vertex="1">
           <mxGeometry height="40" width="110" x="-471" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="L7zTOhJfHXfXRMeTNl_m-26" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-16" value="">
@@ -185,7 +185,7 @@
         <mxCell id="p5u3kfcpNNPfu46keYu8-29" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-26" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Prompt For English" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Prompt For English" vertex="1">
           <mxGeometry height="60" width="120" x="-98" y="-460" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-16" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -196,7 +196,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="1.repairs and service" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="1.repairs and service" vertex="1">
           <mxGeometry height="40" width="110" x="-310" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-14" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -207,7 +207,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="2.usage instructions" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="2.usage instructions" vertex="1">
           <mxGeometry height="40" width="130" x="-180" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-12" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -218,7 +218,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;div&gt;3.parts and accessories inquiries&lt;/div&gt;" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;3.parts and accessories inquiries&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="130" x="-30" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-10" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="p5u3kfcpNNPfu46keYu8-7">
@@ -231,7 +231,7 @@
             <mxPoint x="-341.25" y="67" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L7zTOhJfHXfXRMeTNl_m-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="4.Casarte products" vertex="1">
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="4.Casarte products" vertex="1">
           <mxGeometry height="40" width="110" x="120" y="-213" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-18" edge="1" parent="1" source="p5u3kfcpNNPfu46keYu8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-17" value="">
@@ -260,15 +260,15 @@
           <mxGeometry height="40" width="110" x="-387.5" y="107" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;div&gt;Announcement&lt;/div&gt;&lt;div&gt;กรุณาถือสายรอสักครู่เจ้าหน้าที่ให้บริการเต็มทุกคู่สาย&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="110" x="-60" y="-13" as="geometry" />
+          <mxGeometry height="75" width="130" x="-60" y="-20.5" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-23" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" value="📞End Call" vertex="1">
           <mxGeometry height="60" width="110" x="-387.5" y="217" as="geometry" />
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-25" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-285" y="30" as="sourcePoint" />
-            <mxPoint x="-70" y="30" as="targetPoint" />
+            <mxPoint x="-279" y="30" as="sourcePoint" />
+            <mxPoint x="-64" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-31" edge="1" parent="1" source="p5u3kfcpNNPfu46keYu8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="p5u3kfcpNNPfu46keYu8-27">
@@ -287,6 +287,11 @@
             <Array as="points">
               <mxPoint x="240" y="-559.7" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p5u3kfcpNNPfu46keYu8-34" connectable="0" parent="p5u3kfcpNNPfu46keYu8-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Max Retries 2" vertex="1">
+          <mxGeometry relative="1" x="-0.8799" y="3" as="geometry">
+            <mxPoint x="43" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p5u3kfcpNNPfu46keYu8-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Invalid / Timeout Digit Prompts" vertex="1">
