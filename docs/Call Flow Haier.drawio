@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Lnvm7787Im5ZMbZpTqtH">
+    <mxGraphModel dx="1704" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-23" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" value="📞Incoming Call" vertex="1">
+          <mxGeometry height="60" width="110" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-24" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;🔢&lt;/font&gt;IVR Greeting&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;Haier สวัสดีค่ะ&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;div&gt;กด 1 แจ้งซ่อม&lt;/div&gt;&lt;div&gt;กด 2 สอบถามวิธีการใช้งาน&lt;/div&gt;&lt;div&gt;กด 3 สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;&lt;div&gt;ผลิตภัณณ์&amp;nbsp; Casarte กด 4&lt;/div&gt;&lt;div&gt;For English Please press Nine&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="245" x="412.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="1.แจ้งซ่อม" vertex="1">
+          <mxGeometry height="40" width="110" x="263" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="2.สอบถามวิธีการใช้งาน" vertex="1">
+          <mxGeometry height="40" width="130" x="399" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;div&gt;3.สอบถามข้อมูลอะไหล่ อุปกรณ์&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="549" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="4.ผลิตภัณณ์&amp;nbsp; Casarte" vertex="1">
+          <mxGeometry height="40" width="110" x="699" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-26" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-27" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="460" />
+              <mxPoint x="614" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-28" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="460" />
+              <mxPoint x="464" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-31" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="440" />
+              <mxPoint x="318" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-32" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="440" />
+              <mxPoint x="754" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-33" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="370" />
+              <mxPoint x="840" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Check Digit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="495" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Invalid/Timeout Digit" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-34" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=-0.043;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="670" />
+              <mxPoint x="455.4" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-35" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="670" />
+              <mxPoint x="608" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-36" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="650" />
+              <mxPoint x="318" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-37" edge="1" parent="1" source="L7zTOhJfHXfXRMeTNl_m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.581;entryY=-0.031;entryDx=0;entryDy=0;strokeColor=#23445D;defaultLabelBackgroundColor=page;" target="L7zTOhJfHXfXRMeTNl_m-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="650" />
+              <mxPoint x="756.4" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" value="Pomt For English" vertex="1">
+          <mxGeometry height="60" width="120" x="475" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="1.repairs and service" vertex="1">
+          <mxGeometry height="40" width="110" x="263" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="2.usage instructions" vertex="1">
+          <mxGeometry height="40" width="130" x="393" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="&lt;div&gt;3.parts and accessories inquiries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="543" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="L7zTOhJfHXfXRMeTNl_m-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=#CCCCCC;" value="4.Casarte products" vertex="1">
+          <mxGeometry height="40" width="110" x="693" y="688" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
