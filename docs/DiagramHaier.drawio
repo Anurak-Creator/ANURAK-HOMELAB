@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="3CX Architecture with SIP Trunk" id="0">
+    <mxGraphModel dx="1704" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="provider_cloud" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#0284C7;fillColor=#E0F2FE;fontColor=#0369A1;fontStyle=1;fontSize=13;shadow=1;" value="☁️ Provider Cloud&#xa;(หมายเลข 1789)" vertex="1">
+          <mxGeometry height="120" width="220" x="930" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="viserve_container" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#94A3B8;fillColor=#F8FAFC;fontColor=#334155;fontStyle=1;fontSize=14;rounded=1;arcSize=10;startSize=30;strokeWidth=2;perimeterSpacing=5;" value="Viserve Network Area" vertex="1">
+          <mxGeometry height="620" width="660" x="46" y="40" as="geometry">
+            <mxRectangle height="30" width="180" x="80" y="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="firewall" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#DC2626;fillColor=#FEE2E2;fontColor=#991B1B;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=12;" value="🛡️ Firewall / Edgerouter&#xa;(NAT / SIP ALG Disabled)" vertex="1">
+          <mxGeometry height="70" width="180" x="440" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="server_3cx" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#2563EB;fillColor=#DBEAFE;fontColor=#1E40AF;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=13;" value="🖥️ Server 3CX&#xa;(IP PBX Core System)" vertex="1">
+          <mxGeometry height="80" width="200" x="190" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="switch" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#475569;fillColor=#E2E8F0;fontColor=#1E293B;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=12;" value="🔌 Network Switch (LAN)&#xa;(PoE / VLAN Support)" vertex="1">
+          <mxGeometry height="60" width="200" x="190" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="agent1" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#059669;fillColor=#D1FAE5;fontColor=#065F46;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=11;" value="💻 PC Agent 1&#xa;(3CX Web Client / App)" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="agent2" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#059669;fillColor=#D1FAE5;fontColor=#065F46;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=11;" value="💻 PC Agent 2&#xa;(3CX Web Client / App)" vertex="1">
+          <mxGeometry height="60" width="160" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="agent3" parent="viserve_container" style="html=1;whiteSpace=wrap;strokeColor=#059669;fillColor=#D1FAE5;fontColor=#065F46;fontStyle=1;rounded=1;arcSize=15;shadow=1;fontSize=11;" value="💻 PC Agent 3&#xa;(3CX Web Client / App)" vertex="1">
+          <mxGeometry height="60" width="160" x="390" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fw_3cx" edge="1" parent="viserve_container" source="firewall" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;strokeWidth=2;startArrow=classic;endArrow=classic;html=1;fontColor=#991B1B;fontSize=10;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="server_3cx" value="Internal Voice Traffic">
+          <mxGeometry relative="1" x="-0.25" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="290" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_3cx_sw" edge="1" parent="viserve_container" source="server_3cx" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2563EB;strokeWidth=2;startArrow=classic;endArrow=classic;html=1;fontColor=#1E40AF;fontSize=10;labelBackgroundColor=#FFFFFF;" target="switch" value="SIP Extensions / Control">
+          <mxGeometry relative="1" x="-0.1429" y="60" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sw_a1" edge="1" parent="viserve_container" source="switch" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;startArrow=classic;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="agent1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_a2" edge="1" parent="viserve_container" source="switch" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;startArrow=classic;endArrow=classic;html=1;" target="agent2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sw_a3" edge="1" parent="viserve_container" source="switch" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;startArrow=classic;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="agent3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sip_trunk" edge="1" parent="1" source="firewall" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0284C7;strokeWidth=3;startArrow=classic;endArrow=classic;html=1;fontColor=#0369A1;fontStyle=1;fontSize=11;labelBackgroundColor=#FFFFFF;" target="provider_cloud" value="SIP Trunk (Inbound &amp; Outbound)&#xa;[SIP Signaling &amp; RTP Media]">
+          <mxGeometry relative="1" y="-27" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
